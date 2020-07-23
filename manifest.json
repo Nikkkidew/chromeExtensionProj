@@ -1,0 +1,13 @@
+{
+	"manifest_version": 2,
+
+	"name": "Motivational Boosters",
+	"description": "Get your day going with some inspirational quotes",
+	"version": "1.0",
+
+	"browser_action": {
+		"default_icon": "sun.png",
+		"default_popup": "popup.html"
+	},
+	"permissions": ["activeTab"]
+}
