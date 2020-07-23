@@ -1,12 +1,12 @@
 {
 	"manifest_version": 2,
 
-	"name": "Motivational Boosters",
-	"description": "Get your day going with some inspirational quotes",
+	"name": "Programeme",
+	"description": "Get your day going with some programeme",
 	"version": "1.0",
 
 	"browser_action": {
-		"default_icon": "sun.png",
+		"default_icon": "1662_original.png",
 		"default_popup": "popup.html"
 	},
 	"permissions": ["activeTab"]
