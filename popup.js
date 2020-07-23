@@ -53,31 +53,23 @@ function randomGen(num = motivationalSayings.length) {
 	return num1;
 }
 
-// const sources = [];
-
 // $.getJSON('http://www.reddit.com/r/ProgrammerHumor/.json?jsonp=?', function (data) {
+// 	const sources = [];
+
 // 	$.each(data.data.children, function (i, item) {
-// 		// let stringToParse = item.data.url;
-// 		// let final = stringToParse.replace(/"/g, '\\"');
-// 		// console.log(typeof final);
 // 		sources.push(item.data.url);
 // 	});
+// 	console.log(sources);
+
+// 	function randomGen(num = sources.length) {
+// 		let num1 = Math.floor(Math.random() * num);
+// 		return num1;
+// 	}
+// 	const app = document.getElementById('app');
+// 	const img = document.createElement('img');
+
+// 	const memeSrc = sources[randomGen()];
+// 	console.log(memeSrc);
+// 	img.src = memeSrc;
+// 	app.appendChild(img);
 // });
-
-// sources.forEach((source) => {
-// 	source = JSON.parse(source);
-// });
-
-// const app = document.getElementById('app');
-// const img = document.createElement('img');
-
-// const memeSrc = sources[randomGen()];
-// img.src = memeSrc;
-// app.appendChild(img);
-
-// function randomGen(num = sources.length) {
-// 	let num1 = Math.floor(Math.random() * num);
-// 	return num1;
-// }
-
-// console.log(sources);
